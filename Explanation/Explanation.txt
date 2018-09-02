@@ -1,0 +1,4 @@
+Basically we need to identify the parts of spech using spacy library functions.Thus we can segment the sentences into 3 major part viz. Subject_phrase,Vern_phrase , Object_phrase. Verb_phrase is the head of each sentence
+Here we can NLTK i.e. Natural Language ToolKit for analysis of parts of speech.
+Then we can relate subject phrase and object phrase . The terms under these subject_phrase and object_phrase will be the nodes in the Knowledge graph. And nodes will be connected throgh verb_phrase which will be the edges.
+After formation of knowledge graph, then we corelate subject_phrase and object_phrase, and form required output.
